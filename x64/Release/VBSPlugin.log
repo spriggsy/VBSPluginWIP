@@ -1,0 +1,24 @@
+﻿  enumser.cpp
+  log.cpp
+log.cpp(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+log.cpp(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  Serial.cpp
+Serial\Serial.cpp(1010): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+Serial\Serial.cpp(1165): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  VBSPlugin.cpp
+VBSPlugin.cpp(149): warning C4477: 'sprintf_s' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'double'
+VBSPlugin.cpp(149): warning C4477: 'sprintf_s' : format string '%i' requires an argument of type 'int', but variadic argument 2 has type 'double'
+VBSPlugin.cpp(149): warning C4477: 'sprintf_s' : format string '%i' requires an argument of type 'int', but variadic argument 3 has type 'double'
+VBSPlugin.cpp(276): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(240): note: see declaration of 'freopen'
+VBSPlugin.cpp(277): warning C4102: 'std': unreferenced label
+VBSPlugin.cpp(325): warning C4477: 'sprintf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+  Generating Code...
+  whereami.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\Spriggsy\Documents\GitHub\VBSPlugin - Copy\x64\Release\VBSPlugin.dll) does not match the Linker's OutputFile property value (C:\Users\Spriggsy\Documents\GitHub\VBSPlugin - Copy\Release\VBSPlugin.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+.\VBSPlugin.def(2): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+     Creating library .\Release/VBSPlugin.lib and object .\Release/VBSPlugin.exp
+  VBSPlugin.vcxproj -> C:\Users\Spriggsy\Documents\GitHub\VBSPlugin - Copy\x64\Release\VBSPlugin.dll
+  VBSPlugin.vcxproj -> .\Release/VBSPlugin.pdb (Full PDB)
